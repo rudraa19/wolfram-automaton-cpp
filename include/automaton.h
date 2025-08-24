@@ -12,6 +12,8 @@ private:
     int rule;
     int rule_set[8];
 
+    int current_state(int x);
+
 public:
     Automaton(int grid_size, int rule);
     void setup();

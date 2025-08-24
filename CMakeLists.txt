@@ -5,4 +5,5 @@ include_directories(include)
 
 add_executable(wolfram_automaton
     src/main.cpp
+    src/automaton.cpp
 )
